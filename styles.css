@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px
+}
+
+#text{
+    width: 50%;
+    height: 50px;
+    background-color: #fcfcfc;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #7d7d7d;
+}
+
+#keyCode{
+    height: 70px;
+    font-size: 52px;
+    font-weight: 600;
+    color: cyan;
+    margin-top: 30px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    line-height: 40px;
+
+}
+
+.color_change{
+    color: cyan;  
+}
+
+.zero{
+    height: 0 !important;
+    padding: 0 !important;
+}
